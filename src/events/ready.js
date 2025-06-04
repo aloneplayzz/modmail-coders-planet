@@ -13,10 +13,10 @@ module.exports = {
     // Set bot status - something clearer about DMing to create tickets
     client.user.setPresence({
       activities: [{ 
-        name: 'DM me to create a ticket!',
+        name: 'DM ME TO CONTACT STAFF',
         type: ActivityType.Custom 
       }],
-      status: 'online'
+      status: 'idle'
     });
 
     // Check for required environment variables
@@ -50,10 +50,10 @@ module.exports = {
     setTimeout(() => {
       client.user.setPresence({
         activities: [{ 
-          name: 'DM me to create a ticket!',
-          type: ActivityType.Playing
+          name: 'DM ME TO CONTACT STAFF',
+          type: ActivityType.Listening
         }],
-        status: 'online'
+        status: 'idle'
       });
     }, 10000);
   }
