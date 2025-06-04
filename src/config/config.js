@@ -1,7 +1,7 @@
 module.exports = {
   prefix: process.env.PREFIX || '!',
-  embedColor: '#5865F2', // Discord Blurple
-  footer: 'Made by Izzy | Coders Planet',
+  embedColor: '#a938ff', // Discord Blurple
+  footer: 'Made by Alone | Lunar Development',
   statusMessages: {
     online: 'DM me to create a ticket!',
     idle: 'Watching for new ModMail tickets'
@@ -23,7 +23,7 @@ module.exports = {
     }
   },
   credits: {
-    name: 'Izzy | Coders Planet',
-    website: 'https://discord.gg/codersplanet'
+    name: 'Alone | Lunar Development',
+    website: 'https://discord.gg/exploiter'
   }
 }; 
